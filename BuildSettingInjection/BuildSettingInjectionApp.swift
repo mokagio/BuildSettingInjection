@@ -15,3 +15,8 @@ struct BuildSettingInjectionApp: App {
         }
     }
 }
+
+// Because this is just an example app, there are only the dummy structs that Xcode generated.
+// This class can be used to load the `Bundle` for this target as an alternative to
+// `Bundle.main`.
+class ClassFromMainBundle {}
