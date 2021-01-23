@@ -11,7 +11,18 @@
 		3F40EEE525BC9AE60067FBA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EEE425BC9AE60067FBA7 /* ContentView.swift */; };
 		3F40EEE725BC9AE80067FBA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F40EEE625BC9AE80067FBA7 /* Assets.xcassets */; };
 		3F40EEEA25BC9AE80067FBA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F40EEE925BC9AE80067FBA7 /* Preview Assets.xcassets */; };
+		3F40EEF925BC9B4A0067FBA7 /* BuildSettingInjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40EEF825BC9B4A0067FBA7 /* BuildSettingInjectionTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F40EEFB25BC9B4A0067FBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F40EED725BC9AE60067FBA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F40EEDE25BC9AE60067FBA7;
+			remoteInfo = BuildSettingInjection;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3F40EEDF25BC9AE60067FBA7 /* BuildSettingInjection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildSettingInjection.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +31,20 @@
 		3F40EEE625BC9AE80067FBA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F40EEE925BC9AE80067FBA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F40EEEB25BC9AE80067FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F40EEF625BC9B4A0067FBA7 /* BuildSettingInjectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildSettingInjectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F40EEF825BC9B4A0067FBA7 /* BuildSettingInjectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSettingInjectionTests.swift; sourceTree = "<group>"; };
+		3F40EEFA25BC9B4A0067FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3F40EEDC25BC9AE60067FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F40EEF325BC9B4A0067FBA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				3F40EEE125BC9AE60067FBA7 /* BuildSettingInjection */,
+				3F40EEF725BC9B4A0067FBA7 /* BuildSettingInjectionTests */,
 				3F40EEE025BC9AE60067FBA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				3F40EEDF25BC9AE60067FBA7 /* BuildSettingInjection.app */,
+				3F40EEF625BC9B4A0067FBA7 /* BuildSettingInjectionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +92,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3F40EEF725BC9B4A0067FBA7 /* BuildSettingInjectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F40EEF825BC9B4A0067FBA7 /* BuildSettingInjectionTests.swift */,
+				3F40EEFA25BC9B4A0067FBA7 /* Info.plist */,
+			);
+			path = BuildSettingInjectionTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +121,24 @@
 			productReference = 3F40EEDF25BC9AE60067FBA7 /* BuildSettingInjection.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3F40EEF525BC9B4A0067FBA7 /* BuildSettingInjectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F40EEFD25BC9B4A0067FBA7 /* Build configuration list for PBXNativeTarget "BuildSettingInjectionTests" */;
+			buildPhases = (
+				3F40EEF225BC9B4A0067FBA7 /* Sources */,
+				3F40EEF325BC9B4A0067FBA7 /* Frameworks */,
+				3F40EEF425BC9B4A0067FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F40EEFC25BC9B4A0067FBA7 /* PBXTargetDependency */,
+			);
+			name = BuildSettingInjectionTests;
+			productName = BuildSettingInjectionTests;
+			productReference = 3F40EEF625BC9B4A0067FBA7 /* BuildSettingInjectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +150,10 @@
 				TargetAttributes = {
 					3F40EEDE25BC9AE60067FBA7 = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					3F40EEF525BC9B4A0067FBA7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3F40EEDE25BC9AE60067FBA7;
 					};
 				};
 			};
@@ -117,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				3F40EEDE25BC9AE60067FBA7 /* BuildSettingInjection */,
+				3F40EEF525BC9B4A0067FBA7 /* BuildSettingInjectionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +183,13 @@
 			files = (
 				3F40EEEA25BC9AE80067FBA7 /* Preview Assets.xcassets in Resources */,
 				3F40EEE725BC9AE80067FBA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F40EEF425BC9B4A0067FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +205,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F40EEF225BC9B4A0067FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F40EEF925BC9B4A0067FBA7 /* BuildSettingInjectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F40EEFC25BC9B4A0067FBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F40EEDE25BC9AE60067FBA7 /* BuildSettingInjection */;
+			targetProxy = 3F40EEFB25BC9B4A0067FBA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3F40EEEC25BC9AE80067FBA7 /* Debug */ = {
@@ -304,6 +382,44 @@
 			};
 			name = Release;
 		};
+		3F40EEFE25BC9B4A0067FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuildSettingInjectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mokacoding.BuildSettingInjectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildSettingInjection.app/BuildSettingInjection";
+			};
+			name = Debug;
+		};
+		3F40EEFF25BC9B4A0067FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuildSettingInjectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mokacoding.BuildSettingInjectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildSettingInjection.app/BuildSettingInjection";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -321,6 +437,15 @@
 			buildConfigurations = (
 				3F40EEEF25BC9AE80067FBA7 /* Debug */,
 				3F40EEF025BC9AE80067FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F40EEFD25BC9B4A0067FBA7 /* Build configuration list for PBXNativeTarget "BuildSettingInjectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F40EEFE25BC9B4A0067FBA7 /* Debug */,
+				3F40EEFF25BC9B4A0067FBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
